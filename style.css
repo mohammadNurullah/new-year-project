@@ -72,3 +72,52 @@
   margin-bottom: 3rem;
 }
 /* holiday section ends here */
+
+/* midnight section starts here */
+.midnight-img {
+  background-image: url("./resources/Vectorrr.png");
+  background-position: center;
+  background-repeat: no-repeat;
+
+  width: 1320px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 8rem;
+}
+.midnight-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.midnight-content {
+  padding-top: 100px;
+  padding-left: 126px;
+  width: 64%;
+}
+
+.midnight-title {
+  font-weight: 700;
+  font-size: 64px;
+  margin-bottom: 0;
+}
+
+.midnight-summary {
+  color: #ffffff;
+  opacity: 80%;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.midnight-2024 {
+  width: 36%;
+  padding: 5rem 0;
+}
+
+.btn-primary {
+  padding: 16px 32px;
+  background: #ff0000;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 8px;
+}
+
+/* midnight section ends here */
