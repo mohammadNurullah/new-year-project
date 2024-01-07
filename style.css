@@ -1,0 +1,43 @@
+/* hero section starts here */
+.hero-img {
+  background-image: url("./resources/Banner\ Image.png");
+  background-position: center;
+  background-repeat: no-repeat;
+
+  width: 1320px;
+  height: 600px;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+/* common color */
+.text-primary {
+  color: #ffffff;
+}
+
+/* common fonts */
+.font-primary {
+  font-family: "Merriweather", serif;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(550px);
+  text-align: center;
+}
+
+.hero-title {
+  font-weight: normal;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.hero-title-bold {
+  font-size: 65px;
+  font-weight: 700;
+
+  margin-top: 3px;
+}
