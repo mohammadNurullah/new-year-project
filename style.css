@@ -117,7 +117,31 @@
   background: #ff0000;
   color: #ffffff;
   font-weight: 700;
+  border: none;
   border-radius: 8px;
 }
-
 /* midnight section ends here */
+
+/* midnight place section starts here */
+.place-content {
+  /* background: linear-gradient(#ff0000, #ff000000); */
+  /* opacity: 10%; */
+  color: #070211;
+  font-weight: 600;
+  text-align: center;
+  padding: 5rem;
+  font-size: 32px;
+}
+.place-content .place {
+  color: #ff0000;
+}
+.place-content .date {
+  color: #ff0000;
+}
+.place-content .time {
+  color: #ff0000;
+}
+.btn-place {
+  margin-top: 1.5rem;
+}
+/* midnight place section ends here */
