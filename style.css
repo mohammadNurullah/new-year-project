@@ -290,3 +290,27 @@
   line-height: 1.7;
 }
 /* portfolio section ends here */
+
+/* portfolio multiple images section starts here */
+.portfolio-imgs-container {
+  margin-left: 100px;
+  margin-right: 100px;
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.portfolio-imgs-container .portfolio-imgs {
+  max-width: 424px;
+  height: 450px;
+}
+
+.portfolio-imgs-container .portfolio-imgs:hover {
+  transform: scale(0.9);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+/* portfolio multiple images section ends here */
