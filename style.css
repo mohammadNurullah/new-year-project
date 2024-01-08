@@ -280,6 +280,7 @@
   font-size: 2.125rem;
   margin-top: 0;
   margin-bottom: 0;
+  text-transform: uppercase;
 }
 
 .portfolio-container .portfolio-summary {
@@ -293,6 +294,7 @@
 
 /* portfolio multiple images section starts here */
 .portfolio-imgs-container {
+  margin-top: 2.5rem;
   margin-left: 100px;
   margin-right: 100px;
 
@@ -312,5 +314,70 @@
   transition: all 0.3s;
   cursor: pointer;
 }
-
 /* portfolio multiple images section ends here */
+
+/* subscribe newslatter section starts here */
+.subscribe-newslatter-container {
+  text-align: center;
+  background: #ff000013;
+
+  margin-left: 110px;
+  margin-right: 110px;
+  margin-top: 6rem;
+
+  padding-top: 7rem;
+  padding-bottom: 3rem;
+
+  border-radius: 8px;
+}
+
+.subscribe-newslatter-container .subscribe-newslatter-logo {
+  width: 100px;
+  height: 100px;
+}
+
+.subscribe-newslatter-container .subscribe-newslatter-title {
+  text-transform: capitalize;
+  color: #070211;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.subscribe-newslatter-container .subscribe-newslatter-summary {
+  font-weight: 400;
+  font-size: 0.825rem;
+  color: #070211;
+  opacity: 60%;
+  margin-bottom: 2rem;
+}
+
+.subscribe-newslatter-container form {
+  width: 450px;
+  height: 55px;
+  margin: 0 auto;
+
+  display: flex;
+}
+
+.subscribe-newslatter-container form input[type="search"] {
+  flex: 1;
+  background: #ffffff;
+  border: none;
+  outline: none;
+
+  padding: 8px 40px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+.subscribe-newslatter-container form button {
+  font-weight: 500;
+  color: #ffffff;
+  background: #ff0000;
+  border: none;
+
+  padding: 8px 40px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+/* subscribe newslatter section ends here */
