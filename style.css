@@ -124,14 +124,25 @@
 
 /* midnight place section starts here */
 .place-content {
-  /* background: linear-gradient(#ff0000, #ff000000); */
-  /* opacity: 10%; */
+  background: linear-gradient(rgba(255, 0, 0, 0.095), rgba(255, 0, 0, 0));
+  border-radius: 0.575rem;
+
   color: #070211;
   font-weight: 600;
   text-align: center;
-  padding: 5rem;
   font-size: 32px;
+
+  width: 1320px;
+  height: 482px;
+  line-height: 0;
+  margin: 72px 98px 0 98px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
 .place-content .place {
   color: #ff0000;
 }
@@ -142,6 +153,64 @@
   color: #ff0000;
 }
 .btn-place {
-  margin-top: 1.5rem;
+  margin-top: 3.5rem;
 }
 /* midnight place section ends here */
+
+/* comming soon section starts here */
+.comming-soon-container {
+  display: flex;
+  justify-content: space-evenly;
+
+  margin-top: 10rem;
+}
+
+.comming-soon-container .comming-soon-left {
+  width: 20%;
+  margin: auto 0;
+}
+.comming-soon-left .comming-soon-offer {
+  color: #ff0000;
+  font-weight: 500;
+}
+.comming-soon-left .comming-soon-title {
+  color: #070211;
+  font-size: 2rem;
+}
+
+/* for common summary */
+.comming-soon-summary {
+  color: #07021199;
+  opacity: 80%;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+.comming-soon-container .comming-soon-middle {
+  width: 33%;
+  text-align: center;
+}
+
+.comming-soon-container .comming-soon-middle .comming-soon-middle-img {
+  border: 10px solid #ff0000;
+  border-radius: 1000px;
+  padding: 1.5rem;
+  width: 294px;
+}
+.comming-soon-container .comming-soon-right {
+  width: 15%;
+  margin: auto 0;
+  padding-top: 2.3rem;
+}
+
+.comming-soon-right .comming-soon-2024 {
+  color: #ff0000;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.comming-soon-right .comming-comming-soon-img {
+  width: 100px;
+  height: 100px;
+}
+/* comming soon section ends here */
