@@ -260,3 +260,33 @@
   margin: 0 auto;
 }
 /* holiday sale img section ends here */
+
+/* portfolio section starts here */
+.portfolio-container {
+  margin-left: 100px;
+  margin-top: 6rem;
+}
+
+.portfolio-container .portfolio-gifts {
+  color: #ff0000;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.portfolio-container .portfolio-title {
+  color: #070211;
+  font-weight: 900;
+  font-size: 2.125rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.portfolio-container .portfolio-summary {
+  color: #070211;
+  opacity: 60%;
+  font-size: 0.925rem;
+  margin: 1.325rem 0;
+  line-height: 1.7;
+}
+/* portfolio section ends here */
