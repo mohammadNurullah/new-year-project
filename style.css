@@ -1,13 +1,22 @@
 /* hero section starts here */
 .hero-img {
-  background-image: url("./resources/Banner\ Image.png");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.049)
+    ),
+    url("./resources/Banner\ Image.png");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 
+  border-radius: 1rem;
   width: 1320px;
   height: 600px;
   padding-top: 50px;
+
   margin: 0 auto;
+  margin-top: 3rem;
 }
 
 /* common color */
@@ -20,6 +29,7 @@
   font-family: "Merriweather", serif;
 }
 
+/* common fonts */
 .font-secondary {
   font-family: "Inter", sans-serif;
 }
@@ -36,13 +46,14 @@
 .hero-title {
   font-weight: normal;
   font-size: 32px;
-  margin-bottom: 30px;
+  margin-top: 2.5rem;
+  margin-bottom: 10px;
 }
 
 .hero-title-bold {
-  font-size: 65px;
+  font-size: 70px;
   font-weight: 900;
-  margin-top: 3px;
+  margin-top: 2rem;
 }
 /* hero section ends here */
 
@@ -75,10 +86,16 @@
 
 /* midnight section starts here */
 .midnight-img {
-  background-image: url("./resources/Vectorrr.png");
+  background-image: linear-gradient(
+      90deg,
+      rgb(22, 22, 22),
+      rgba(143, 73, 65, 0.147)
+    ),
+    url("./resources/Vectorrr.png");
   background-position: center;
   background-repeat: no-repeat;
 
+  border-radius: 1rem;
   width: 1320px;
   height: 600px;
   margin: 0 auto;
@@ -176,6 +193,9 @@
 .comming-soon-left .comming-soon-title {
   color: #070211;
   font-size: 2rem;
+
+  margin-top: 0;
+  padding-top: 0;
 }
 
 /* for common summary */
@@ -398,7 +418,7 @@ footer {
   display: flex;
   justify-content: space-between;
 
-  padding: 3.725rem 5rem 0.5rem 5rem;
+  padding: 3.725rem 5rem 0.5rem 0;
 }
 .first-layer .summary {
   margin-top: 3rem;
@@ -428,7 +448,7 @@ footer {
   display: flex;
   justify-content: space-between;
 
-  padding: 2.325rem 3rem;
+  padding: 2.325rem 0;
 
   font-weight: 500;
 }
