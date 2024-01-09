@@ -122,6 +122,7 @@
   opacity: 80%;
   margin-top: 1.5rem;
   margin-bottom: 2rem;
+  line-height: 1.6;
 }
 
 .midnight-2024 {
@@ -158,6 +159,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  text-transform: capitalize;
 }
 
 .place-content .place {
@@ -264,7 +267,7 @@
   color: #070211;
   opacity: 60%;
   font-weight: 500;
-  font-size: 0.925rem;
+  line-height: 1.6;
 }
 /* holiday sale section ends here */
 
@@ -300,7 +303,7 @@
   font-size: 2.125rem;
   margin-top: 0;
   margin-bottom: 0;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .portfolio-container .portfolio-summary {
@@ -308,7 +311,7 @@
   opacity: 60%;
   font-size: 0.925rem;
   margin: 1.325rem 0;
-  line-height: 1.7;
+  line-height: 1.6;
 }
 /* portfolio section ends here */
 
@@ -414,15 +417,18 @@ footer {
   margin-left: 110px;
   margin-right: 110px;
 }
+
 .foot-container .first-layer {
   display: flex;
   justify-content: space-between;
 
   padding: 3.725rem 5rem 0.5rem 0;
 }
+
 .first-layer .summary {
   margin-top: 3rem;
 }
+
 .foot-container .first-sublayer {
   margin: 2rem 0;
 }
@@ -431,6 +437,7 @@ footer {
   width: 18px;
   padding: 1rem 0.5rem 0 0.5rem;
 }
+
 .middle-logo-content {
   display: flex;
   justify-content: center;
@@ -451,6 +458,11 @@ footer {
   padding: 2.325rem 0;
 
   font-weight: 500;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 hr {
